@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+// Colores California Zapatero
+$color-marron:#dfc8a5;
+$color-bordo: #8c140b;
+
+// Estilos Globales
+main{
+    margin-top: 6rem;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{ 
+    font-family: 'Raleway',sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.internalLink{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+
+    &:hover{
+        transform: scale(1.3);
+    }
+}

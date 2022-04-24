@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+main {
+  margin-top: 6rem;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.internalLink {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.internalLink:hover {
+  transform: scale(1.3);
+}
+
+/* Estilos para pagina de Inicio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container__carousel {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.intro__container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.intro__text {
+  text-align: justify;
+  font-weight: 400;
+}
+
+ul li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  background-color: #dfc8a5;
+  color: #8c140b;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #8c140b;
+  color: #dfc8a5;
+  border: none;
+}
+
+.footer {
+  margin-top: 3.5rem;
+  text-align: center;
+  background-color: #dfc8a5;
+}
+
+.copyright {
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+.copyright a {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  font-family: Raleway;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c140b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 0;
+}
+
+/* Estilos para pagina de Contacto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form__contact {
+  margin-top: 3rem;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form.row {
+  padding-top: 0.5rem;
+}
+
+.form__contact label,
+.form__contact input,
+.form__contact textarea {
+  display: inline;
+  width: 100%;
+}
+
+.form__contact label {
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.form__contact input:not([type=submit]),
+.form__contact textarea {
+  border: none;
+  border-bottom: 2px solid #8c140b;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input[type=submit] {
+  border: none;
+  border-radius: 4rem;
+  background-color: #dfc8a5;
+  color: #8c140b;
+  font-size: 1.5rem;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: large;
+}
+
+/* Estilos para pagina de About */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about__text {
+  padding-top: 4rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Estilos para pagina de Productos - Calzado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container .card {
+  flex: 1;
+  transition: all 1s ease-in-out;
+  height: 45vmin;
+  position: relative;
+  border: none;
+}
+.container .card .card__head {
+  color: black;
+  background: #dfc8a5;
+  padding: 0.1em;
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  transition: all 0.5s ease-in-out;
+  min-width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1em;
+  white-space: nowrap;
+}
+.container .card:hover {
+  flex-grow: 10;
+}
+.container .card:hover img {
+  filter: grayscale(0);
+}
+.container .card:hover .card__head {
+  text-align: center;
+  top: calc(100% - 2em);
+  color: white;
+  background: #8c140b;
+  font-size: 1.2rem;
+  transform: rotate(0deg) skew(-5deg);
+}
+.container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.container .card:not(:nth-child(5)) {
+  margin-right: 1rem;
+}
+
+p {
+  font-weight: 600;
+}
+
+/* Estilos para pagina de Accesorios */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para pagina de Productos - Mates */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galeria__imagen {
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+.galeria__imagen:hover {
+  filter: grayscale(0);
+}
+
+/* Estilos para pagina de Error 404 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error404 {
+  height: 100vh;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Estilo para Productos - Cuchillos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #dfc8a5;
+  color: #8c140b;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #dfc8a5;
+  border-color: #8c140b;
+}
+
+.btn__cuchillos {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 1.2rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+.btn__cuchillos:after, .btn__cuchillos:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.btn__cuchillos:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid #dfc8a5;
+  border-left: 5px solid #8c140b;
+}
+.btn__cuchillos:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid #8c140b;
+  border-right: 5px solid #dfc8a5;
+}
+.btn__cuchillos:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.btn__cuchillos:hover:before, .btn__cuchillos:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos para pagina de Servicios - Compostura */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para pagina de Tienda */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/*# sourceMappingURL=style.css.map */

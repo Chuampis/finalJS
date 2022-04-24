@@ -1,0 +1,27 @@
+/* Estilos para pagina de Inicio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container__carousel{
+    max-width: 80%;
+    margin:auto;
+    margin-bottom: 2rem;
+    }
+
+.intro{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.intro__container{
+    max-width: 80%;
+    margin: auto;
+}
+.intro__text{
+    text-align: justify;
+    font-weight: 400;
+}

@@ -1,0 +1,97 @@
+[
+    { 
+        "id": 1, 
+        "categoria": "Calzado", 
+        "titulo": "Alpargatas Animal Print", 
+        "precio": 2200, 
+        "stock": 0, 
+        "img": "/imgs/img001.jpg"
+    },
+    { "id": 2, 
+        "categoria": "Calzado", 
+        "titulo": "Alpargatas Azul", 
+        "precio": 1750, 
+        "stock": 10, 
+        "img": "/imgs/img002.jpg" 
+    },
+    { 
+        "id": 3, 
+        "categoria": "Cuchillos", 
+        "titulo": "Cuchillo Criollo", 
+        "precio": 1400, 
+        "stock": 5, 
+        "img": "/imgs/img003.jpg" 
+    },
+    { 
+        "id": 4, 
+        "categoria": "Cuchillos", 
+        "titulo": "Cuchillo La Mission", 
+        "precio": 800, 
+        "stock": 20, 
+        "img": "/imgs/img004.jpg" 
+    },
+    { 
+        "id": 5, 
+        "categoria": "Bolsos", 
+        "titulo": "Chuna Autobag", 
+        "precio": 2200, 
+        "stock": 0, 
+        "img": "/imgs/img005.jpg" 
+    },
+    { 
+        "id": 6, 
+        "categoria": "Bolsos", 
+        "titulo": "Bolso Matero Chuna Amarillo", 
+        "precio": 2200, 
+        "stock": 0, 
+        "img": "/imgs/img006.jpg" 
+    },
+    { 
+        "id": 7, 
+        "categoria": "Mates", 
+        "titulo": "Mates Chuna", 
+        "precio": 2200, 
+        "stock": 15, 
+        "img": "/imgs/img007.jpg" 
+    },
+    { 
+        "id": 8, 
+        "categoria": "Mates", 
+        "titulo": "Mates Jarrito", 
+        "precio": 2000, 
+        "stock": 20, 
+        "img": "/imgs/img008.jpg" 
+    },
+    { 
+        "id": 9, 
+        "categoria": "Accesorios Calzado", 
+        "titulo": "Plantillas Corderito", 
+        "precio": 200, 
+        "stock": 0, 
+        "img": "/imgs/img009.jpg" 
+    },
+    { 
+        "id": 10, 
+        "categoria": "Accesorios Calzado", 
+        "titulo": "Plantillas Ortopedicas", 
+        "precio": 220, 
+        "stock": 80, 
+        "img": "/imgs/img010.jpg"
+    },
+    { 
+        "id": 11, 
+        "categoria": "Accesorios Calzado", 
+        "titulo": "Plantillas Ortopedicas", 
+        "precio": 220, 
+        "stock": 80, 
+        "img": "/imgs/img011.jpg"
+    },
+    { 
+        "id": 12, 
+        "categoria": "Accesorios Calzado", 
+        "titulo": "Plantillas Ortopedicas", 
+        "precio": 220, 
+        "stock": 80, 
+        "img": "/imgs/img012.jpg"
+    }
+]

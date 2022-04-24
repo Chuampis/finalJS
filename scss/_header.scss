@@ -1,0 +1,17 @@
+ul li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    background-color: $color-marron;
+    color: $color-bordo;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: $color-bordo;
+    color: $color-marron;
+    border: none;
+  }
